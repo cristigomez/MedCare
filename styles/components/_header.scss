@@ -1,0 +1,131 @@
+header{
+    width: 100%;
+    overflow: hidden;
+    .relocal{
+        overflow: hidden;
+        text-align: center;
+        line-height: 40px;
+        @include container;
+        .location{
+            width: 50%;
+            float: left;
+            font-size: 15px;
+            display: flex;
+            a{
+                color: $color-backText;
+                list-style: none;
+                text-decoration: none;
+                display: flex;
+                margin-right: 15px;
+                &:hover{
+                    color: $color-details;
+                }
+                i{
+                    margin: 13px 5px 0 0;
+                }
+                p{
+                    font-family: $back-font;
+                }
+            }
+        }
+        .social-media{
+            float: right;
+            }
+            ul{
+                float: right;
+                display: flex;
+                flex-direction: row;
+                li{
+                    
+                    a{
+                        color: $color-backText;
+                        &:hover{
+                            color: $color-details;
+                        }
+                        i{
+                            color: $color-backText;
+                            font-size: 15px;
+                            text-decoration: none;
+                            margin-right: 10px;
+                        }
+                    } 
+                } 
+            }
+        }
+    } 
+    .line{
+        border: 1px solid $color-lines;
+    } 
+    .main-logo{
+        overflow: hidden;
+        padding: 10px 0;
+        @include container;
+        .logo{
+            width: 30%;
+            margin: 10px 0 0 0;
+            float: left;
+            i{
+                color: $color-details;
+                font-size: 40px; 
+                float: left;
+                margin: 0 7px 0 0;
+            }
+            h3{
+                font-family: $front-font;
+                font-weight: bold;
+                font-size: 20px;
+            }
+            p{
+                font-family: $back-font;
+                color: $color-backText;
+                font-size: 13px;
+                font-weight: bold;
+            }
+        }
+        .menu{
+            float: right;
+            margin-top: 30px;
+            ul{
+                display: flex;
+                flex-direction: row;
+                li{
+                    margin-left: 10px; 
+                    a{
+                        font-family: $back-font;
+                        font-size: 15px;
+                        color: $color-frontText;
+                        font-weight: bold;
+                        text-decoration: none;
+                        &:hover{
+                            color: $color-details;
+                        }
+                    } 
+                } 
+            }
+        }
+    } 
+            
+        
+
+
+                    
+                            
+        
+        
+
+                    
+            
+        
+    
+
+                    
+                
+       
+                
+                        
+                        
+                
+            
+        
+                    
+                

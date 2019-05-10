@@ -17,26 +17,28 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
     vertical-align: baseline;
+    list-style: none;
 }
 
 /*variables*/
-$front-font: font-family: 'Muli', sans-serif; 
-$back-font: font-family: 'Quicksand', sans-serif;
+$front-font: 'Muli', sans-serif; 
+$back-font: 'Quicksand', sans-serif;
+
 $color-frontText: #030100;
-$color-backText: #827F7E;
+$color-lines: #E4E4EA;
+$color-backText: #B4B4BB;
 $color-link: #404047;
 $color-details: #515BEF;
 
 /*mixins*/
+@mixin container{
+    width: 75%;
+    margin: 0 auto;
+}
 
 body{
-    width: 100vh;
-
-    .container{
-        width: 80%;
-        margin: 0 auto;
-        
+    @import "components/header";    
     }
 
-}
+
 
