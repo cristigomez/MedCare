@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -29,8 +28,8 @@ body header {
 }
 body header .relocal {
   overflow: hidden;
+  line-height: 30px;
   text-align: center;
-  line-height: 40px;
   width: 75%;
   margin: 0 auto;
 }
@@ -51,7 +50,7 @@ body header .relocal .location a:hover {
   color: #515BEF;
 }
 body header .relocal .location a i {
-  margin: 13px 5px 0 0;
+  margin: 8px 5px 0 0;
 }
 body header .relocal .location a p {
   font-family: "Quicksand", sans-serif;
@@ -128,16 +127,5 @@ body .main-logo .menu ul li a {
 body .main-logo .menu ul li a:hover {
   color: #515BEF;
 }
-=======
-/*variables*/
-/*mixins*/
-body {
-  width: 100vh;
-}
-body .container {
-  width: 80%;
-  margin: 0 auto;
-}
->>>>>>> 8b4812be1acfd92fa0074ec11c64b4fecaf63ef7
 
 /*# sourceMappingURL=styles.css.map */
