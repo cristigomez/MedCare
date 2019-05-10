@@ -3,14 +3,16 @@ header{
     overflow: hidden;
     .relocal{
         overflow: hidden;
+       
+        line-height: 30px;
         text-align: center;
-        line-height: 40px;
         @include container;
         .location{
             width: 50%;
             float: left;
             font-size: 15px;
             display: flex;
+            
             a{
                 color: $color-backText;
                 list-style: none;
@@ -21,7 +23,7 @@ header{
                     color: $color-details;
                 }
                 i{
-                    margin: 13px 5px 0 0;
+                    margin: 8px 5px 0 0;
                 }
                 p{
                     font-family: $back-font;
