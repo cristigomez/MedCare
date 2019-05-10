@@ -1,3 +1,134 @@
+<<<<<<< HEAD
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, section,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  list-style: none;
+}
+
+/*variables*/
+/*mixins*/
+body header {
+  width: 100%;
+  overflow: hidden;
+}
+body header .relocal {
+  overflow: hidden;
+  text-align: center;
+  line-height: 40px;
+  width: 75%;
+  margin: 0 auto;
+}
+body header .relocal .location {
+  width: 50%;
+  float: left;
+  font-size: 15px;
+  display: flex;
+}
+body header .relocal .location a {
+  color: #B4B4BB;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  margin-right: 15px;
+}
+body header .relocal .location a:hover {
+  color: #515BEF;
+}
+body header .relocal .location a i {
+  margin: 13px 5px 0 0;
+}
+body header .relocal .location a p {
+  font-family: "Quicksand", sans-serif;
+}
+body header .relocal .social-media {
+  float: right;
+}
+body header .relocal ul {
+  float: right;
+  display: flex;
+  flex-direction: row;
+}
+body header .relocal ul li a {
+  color: #B4B4BB;
+}
+body header .relocal ul li a:hover {
+  color: #515BEF;
+}
+body header .relocal ul li a i {
+  color: #B4B4BB;
+  font-size: 15px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+body .line {
+  border: 1px solid #E4E4EA;
+}
+body .main-logo {
+  overflow: hidden;
+  padding: 10px 0;
+  width: 75%;
+  margin: 0 auto;
+}
+body .main-logo .logo {
+  width: 30%;
+  margin: 10px 0 0 0;
+  float: left;
+}
+body .main-logo .logo i {
+  color: #515BEF;
+  font-size: 40px;
+  float: left;
+  margin: 0 7px 0 0;
+}
+body .main-logo .logo h3 {
+  font-family: "Muli", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+body .main-logo .logo p {
+  font-family: "Quicksand", sans-serif;
+  color: #B4B4BB;
+  font-size: 13px;
+  font-weight: bold;
+}
+body .main-logo .menu {
+  float: right;
+  margin-top: 30px;
+}
+body .main-logo .menu ul {
+  display: flex;
+  flex-direction: row;
+}
+body .main-logo .menu ul li {
+  margin-left: 10px;
+}
+body .main-logo .menu ul li a {
+  font-family: "Quicksand", sans-serif;
+  font-size: 15px;
+  color: #030100;
+  font-weight: bold;
+  text-decoration: none;
+}
+body .main-logo .menu ul li a:hover {
+  color: #515BEF;
+}
+=======
 /*variables*/
 /*mixins*/
 body {
@@ -7,5 +138,6 @@ body .container {
   width: 80%;
   margin: 0 auto;
 }
+>>>>>>> 8b4812be1acfd92fa0074ec11c64b4fecaf63ef7
 
 /*# sourceMappingURL=styles.css.map */
