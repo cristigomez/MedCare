@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -127,5 +128,16 @@ body .main-logo .menu ul li a {
 body .main-logo .menu ul li a:hover {
   color: #515BEF;
 }
+=======
+/*variables*/
+/*mixins*/
+body {
+  width: 100vh;
+}
+body .container {
+  width: 80%;
+  margin: 0 auto;
+}
+>>>>>>> 8b4812be1acfd92fa0074ec11c64b4fecaf63ef7
 
 /*# sourceMappingURL=styles.css.map */
