@@ -1,0 +1,25 @@
+.welcome{
+    width: 100%;
+    background-image: url("../image/welcome.jpg");
+    background-size: cover; 
+    padding: 180px 0;
+    .left-img{
+        @include container;
+        h1{
+            font-family: $front-font;
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+        p{
+            width: 40%;
+            font-family: $back-font;
+            font-size: 16px;
+            color: $color-link;
+            margin-bottom: 50px;
+        }
+        a{
+            @include buttom;  
+        }
+        
+    }
+}
