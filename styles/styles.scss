@@ -35,9 +35,31 @@ $color-details: #515BEF;
     margin: 0 auto;
 }
 
-body{
-    @import "components/header";    
+@mixin buttom{
+    font-family: $front-font;
+    font-size: 13px;
+    background-color: #515BEF;
+    color: #E4E4EA;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 15px;
+    &:hover{
+        color: #515BEF;
+        background-color: #E4E4EA;
+        border: 1px solid #515BEF;
     }
+    
+}
+
+body{
+    @import "components/header";
+    @import "components/welcome";
+}
+    
+     
+    
+
+
 
 
 

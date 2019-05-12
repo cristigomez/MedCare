@@ -25,6 +25,7 @@ time, mark, audio, video {
 body header {
   width: 100%;
   overflow: hidden;
+  margin: 10px 0 20px 0;
 }
 body header .relocal {
   overflow: hidden;
@@ -73,7 +74,7 @@ body header .relocal ul li a i {
   color: #B4B4BB;
   font-size: 15px;
   text-decoration: none;
-  margin-right: 10px;
+  margin-left: 20px;
 }
 body .line {
   border: 1px solid #E4E4EA;
@@ -126,6 +127,42 @@ body .main-logo .menu ul li a {
 }
 body .main-logo .menu ul li a:hover {
   color: #515BEF;
+}
+body .welcome {
+  width: 100%;
+  background-image: url("../image/welcome.jpg");
+  background-size: cover;
+  padding: 180px 0;
+}
+body .welcome .left-img {
+  width: 75%;
+  margin: 0 auto;
+}
+body .welcome .left-img h1 {
+  font-family: "Muli", sans-serif;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+body .welcome .left-img p {
+  width: 40%;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  color: #404047;
+  margin-bottom: 50px;
+}
+body .welcome .left-img a {
+  font-family: "Muli", sans-serif;
+  font-size: 13px;
+  background-color: #515BEF;
+  color: #E4E4EA;
+  text-decoration: none;
+  padding: 10px;
+  margin-right: 15px;
+}
+body .welcome .left-img a:hover {
+  color: #515BEF;
+  background-color: #E4E4EA;
+  border: 1px solid #515BEF;
 }
 
 /*# sourceMappingURL=styles.css.map */

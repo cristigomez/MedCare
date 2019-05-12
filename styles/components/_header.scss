@@ -1,9 +1,9 @@
 header{
     width: 100%;
     overflow: hidden;
+    margin: 10px 0 20px 0;
     .relocal{
         overflow: hidden;
-       
         line-height: 30px;
         text-align: center;
         @include container;
@@ -12,7 +12,6 @@ header{
             float: left;
             font-size: 15px;
             display: flex;
-            
             a{
                 color: $color-backText;
                 list-style: none;
@@ -38,7 +37,6 @@ header{
                 display: flex;
                 flex-direction: row;
                 li{
-                    
                     a{
                         color: $color-backText;
                         &:hover{
@@ -48,7 +46,7 @@ header{
                             color: $color-backText;
                             font-size: 15px;
                             text-decoration: none;
-                            margin-right: 10px;
+                            margin-left: 20px;
                         }
                     } 
                 } 
@@ -106,6 +104,9 @@ header{
             }
         }
     } 
+                    
+       
+            
             
         
 
